@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: MCP_DBT_DATABASE
+    schema: RAW
+    tables:
+      - name: raw_orders
+
+models:
+  - name: orders
+    description: "Cleaned orders model"
+

@@ -1,0 +1,1 @@
+{"_invocation_id": "981f7e4b-4b6f-4892-9a97-429289dd70af", "linked": {"0": {"name": "source.dbt_project.raw.raw_orders", "type": "source", "succ": [1]}, "1": {"name": "model.dbt_project.orders", "type": "model"}}}
